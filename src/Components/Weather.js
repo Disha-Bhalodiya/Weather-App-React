@@ -2,7 +2,7 @@ import "./Weather.css";
 import React, { useState } from "react";
 
 const WeatherApp = () => {
-  const [weatherDisplay, setWeatherDisplay] = useState("block");
+  const [weatherDisplay, _setWeatherDisplay] = useState("block");
 
   const weatherapi = {
     key: "your key",
